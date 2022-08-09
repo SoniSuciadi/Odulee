@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="32dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textfield_border"
+            android:hint="Judul"
+            android:padding="12dp"
+            android:textColor="@color/background"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/et_tempat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textfield_border"
+            android:hint="Tempat"
+            android:layout_marginTop="16dp"
+            android:padding="12dp"
+            android:textColor="@color/background"
+            android:textSize="14dp" />
+        <TextView
+            android:id="@+id/tv_tanggal"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textfield_border"
+            android:hint="Tanggal"
+            android:layout_marginTop="16dp"
+            android:padding="12dp"
+            android:textColor="@color/background"
+            android:textSize="14sp" />
+
+
+        <EditText
+            android:id="@+id/et_deskripsi"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/textfield_border"
+            android:hint="Agenda"
+            android:padding="12dp"
+            android:textColor="@color/background"
+            android:textSize="14dp" />
+        <Spinner
+            android:id="@+id/s_users"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:background="@drawable/textfield_border"
+            android:layout_marginTop="16dp"/>
+
+<!--        <Button-->
+<!--            android:id="@+id/btn_exc"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:backgroundTint="@color/background"-->
+<!--            android:text="Simpan"-->
+<!--            android:textColor="@color/white" />-->
+<!--        <Button-->
+<!--            android:id="@+id/btn_delete"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:backgroundTint="@android:color/holo_red_dark"-->
+<!--            android:text="Hapus"-->
+<!--            android:textColor="@color/white" />-->
+
+    </LinearLayout>
+
+
+</RelativeLayout>
